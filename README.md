@@ -7,7 +7,7 @@
 [![Twitter](https://img.shields.io/badge/X-@DeFiAudit-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://x.com/DeFiAudit)
 [![Telegram](https://img.shields.io/badge/Telegram-@DefiAudit0x-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DefiAudit0x)
 [![GitHub Org](https://img.shields.io/badge/Org-DefiAudit-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/defiaudit)
-[![Email](https://img.shields.io/badge/Email-defiaudit@pgmail.com-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:defiaudit@pgmail.com)
+[![Email](https://img.shields.io/badge/Email-defiaudit@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:defiaudit@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DefiAudit0x&style=flat-square&color=blue)
 ![GitHub followers](https://img.shields.io/github/followers/DefiAudit0x?style=flat-square&label=Followers)
@@ -58,7 +58,7 @@ I do not publish private client details, credentials, or weaponized exploit inst
 
 - X: [@DeFiAudit](https://x.com/DeFiAudit)
 - Telegram: [@DefiAudit0x](https://t.me/DefiAudit0x)
-- Email: [defiaudit@pgmail.com](mailto:defiaudit@pgmail.com)
+- Email: [defiaudit@gmail.com](mailto:defiaudit@gmail.com)
 - GitHub: [DefiAudit0x](https://github.com/DefiAudit0x)
 
 ---
