@@ -2,11 +2,11 @@
 
 # DefiAudit
 
-**DeFi Security Researcher · Solidity & EVM Audits · Founder of [@DefiAudit](https://github.com/defiaudit)**
+**DeFi Security Researcher · Solidity & EVM Audits · Founder of [@DefiAudit-Labs](https://github.com/DefiAudit-Labs)**
 
 [![Twitter](https://img.shields.io/badge/X-@DeFiAudit-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://x.com/DeFiAudit)
 [![Telegram](https://img.shields.io/badge/Telegram-@DefiAudit0x-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DefiAudit0x)
-[![GitHub Org](https://img.shields.io/badge/Org-DefiAudit-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/defiaudit)
+[![GitHub Org](https://img.shields.io/badge/Org-DefiAudit_Labs-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DefiAudit-Labs)
 [![Email](https://img.shields.io/badge/Email-defiaudit@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:defiaudit@gmail.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DefiAudit0x&style=flat-square&color=blue)
@@ -36,7 +36,7 @@ My focus is **Solidity / EVM security, DeFi attack surfaces, protocol invariants
 | --- | --- |
 | [Audit-Reports](https://github.com/DefiAudit0x/Audit-Reports) | Public audit methodology, findings, and sanitized case studies. |
 | [EVM Audit Lab](https://github.com/DefiAudit0x/evm-audit-lab) | Reproducible Solidity vulnerability labs with before/after tests. |
-| [DefiAudit organization](https://github.com/defiaudit) | The home for DefiAudit research, tools, and reports. |
+| [DefiAudit Labs organization](https://github.com/DefiAudit-Labs) | The home for DefiAudit research, tools, and reports. |
 
 ## Technical focus
 
