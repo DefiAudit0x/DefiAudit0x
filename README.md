@@ -2,7 +2,7 @@
 
 # DefiAudit
 
-**DeFi Security Researcher · Solidity & EVM Audits · Founder of [@DefiAudit-Labs](https://github.com/DefiAudit-Labs)**
+**DeFi Security Researcher · Solidity & EVM + Sui Move · Founder of [@DefiAudit-Labs](https://github.com/DefiAudit-Labs)**
 
 [![Twitter](https://img.shields.io/badge/X-@DeFiAudit-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://x.com/DeFiAudit)
 [![Telegram](https://img.shields.io/badge/Telegram-@DefiAudit0x-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DefiAudit0x)
@@ -18,36 +18,63 @@
 
 I research smart-contract vulnerabilities, build reproducible security tests, and help Web3 teams turn findings into practical fixes.
 
-My focus is **Solidity / EVM security, DeFi attack surfaces, protocol invariants, and secure systems engineering.**
+My focus is **Solidity / EVM security, Sui Move security, DeFi and cross-chain attack surfaces, protocol invariants, and secure systems engineering.**
 
 ---
 
 ## What I do
 
-- Manual smart-contract review and business-logic analysis.
+- Manual smart-contract review and business-logic analysis — full-module reads on both EVM and Sui Move codebases, pinned to exact deployed commits.
+- Bug bounty hunting on HackenProof: cross-chain bridges, CLMM / DEX accounting, and lending protocols.
 - Foundry-based exploit reproduction, invariant testing, and regression tests.
-- Static analysis with Slither and complementary security tooling.
+- Fuzzing and static analysis with Medusa, Echidna, and Slither — and active upstream contributions to those tools.
 - Public security research and educational audit write-ups.
 - Security-minded engineering for systems that handle untrusted data and real-world risk.
+
+## Bug bounty track record
+
+Active on [HackenProof](https://hackenproof.com) (`defiaudit`) under responsible disclosure. Per program policy, targets and technical details remain unnamed until triage completes — resolved reports will be linked here after public disclosure.
+
+| # | Platform | Severity | Status | Scope hint |
+| - | -------- | -------- | ------ | ---------- |
+| 1 | HackenProof | **Critical** | In review | Cross-chain bridge — message-origin validation |
+| 2 | HackenProof | Low | Submitted | CLMM protocol — math rounding accounting |
+
+## Open-source security contributions
+
+Patches to the tooling I use daily — **2 merged · 5 open**:
+
+| Repository | Contribution | Status |
+| --- | --- | --- |
+| [crytic/medusa #838](https://github.com/crytic/medusa/pull/838) | Fail-fast fuzz test utils — `require()` on setup failures halts immediately | ✅ Merged |
+| [foundry-rs/foundry #16696](https://github.com/foundry-rs/foundry/pull/16696) | Preserve NatSpec characters inside fenced code blocks | ✅ Merged |
+| [crytic/slither #3093](https://github.com/crytic/slither/pull/3093) | New detector: quantum-vulnerable signature schemes (`ecrecover` / `ECDSA.recover`) | In review |
+| [crytic/slither #3094](https://github.com/crytic/slither/pull/3094) | Merge inherited `using-for` directives instead of overwriting them | In review |
+| [crytic/medusa #839](https://github.com/crytic/medusa/pull/839) | On-chain fuzzing (fork mode) documentation guide | In review |
+| [crytic/echidna #1609](https://github.com/crytic/echidna/pull/1609) | Isolate shrinking worker state in the UI | In review |
+| [cross-chain-payments #8](https://github.com/vijaymark/cross-chain-payments/pull/8) | Escrow boundary & fuzz tests for StreamEscrow / MilestoneEscrow | In review |
+
+Also an active answerer on foundry-rs/foundry GitHub Q&A discussions.
 
 ## Selected work
 
 | Project | What it demonstrates |
 | --- | --- |
 | [Audit-Reports](https://github.com/DefiAudit0x/Audit-Reports) | Public audit methodology, findings, and sanitized case studies. |
-| [EVM Audit Lab](https://github.com/DefiAudit0x/evm-audit-lab) | Reproducible Solidity vulnerability labs with before/after tests. |
+| [EVM Audit Lab](https://github.com/DefiAudit0x/evm-audit-lab) | Reproducible Solidity vulnerability labs (10 labs, Foundry-tested) with a 3-gate Slither CI. |
+| [smart-contract-auditor](https://github.com/DefiAudit0x/smart-contract-auditor) | Multi-pass analysis tool: static pre-scan modules, CVSS 4.0 scoring, Foundry-verified benchmarks, SARIF export. |
 | [DefiAudit Labs organization](https://github.com/DefiAudit-Labs) | The home for DefiAudit research, tools, and reports. |
 
 ## Technical focus
 
-`Solidity` · `EVM` · `Foundry` · `Slither` · `Hardhat` · `Python` · `TypeScript`
+`Solidity` · `EVM` · `Sui Move` · `Foundry` · `Medusa` · `Echidna` · `Slither` · `XCM / Bridges` · `Python` · `TypeScript`
 
 ## Audit approach
 
-1. Establish scope, trust boundaries, assumptions, and invariants.
+1. Establish scope, trust boundaries, assumptions, and a numbered hypothesis ledger.
 2. Trace privileged flows, accounting, external calls, oracle dependencies, and upgrade paths.
-3. Reproduce material findings with a minimal test or proof of concept.
-4. Describe impact and exploitability precisely, without overstating claims.
+3. Reproduce material findings with a minimal characterization-test PoC, pinned to the exact audited commit — passing on the buggy code, failing only under the narrow fix.
+4. Describe impact and exploitability precisely, without overstating claims — severity argued in both directions (why it is not higher, and why it is not N/A).
 5. Propose a narrow remediation and verify it with regression tests.
 
 ## Responsible disclosure
@@ -60,6 +87,7 @@ I do not publish private client details, credentials, or weaponized exploit inst
 - Telegram: [@DefiAudit0x](https://t.me/DefiAudit0x)
 - Email: [defiaudit@gmail.com](mailto:defiaudit@gmail.com)
 - GitHub: [DefiAudit0x](https://github.com/DefiAudit0x)
+- Bug bounty: HackenProof — `defiaudit`
 
 ---
 
