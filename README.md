@@ -37,8 +37,7 @@ Active on [HackenProof](https://hackenproof.com) (`defiaudit`) under responsible
 
 | # | Platform | Severity | Status | Scope hint |
 | - | -------- | -------- | ------ | ---------- |
-| 1 | HackenProof | **Critical** | In review | Cross-chain bridge — message-origin validation |
-| 2 | HackenProof | Low | Submitted | CLMM protocol — math rounding accounting |
+| 1 | HackenProof | Low | Submitted | CLMM protocol — math rounding accounting |
 
 ## Open-source security contributions
 
