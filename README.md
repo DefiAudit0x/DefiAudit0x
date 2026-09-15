@@ -41,12 +41,15 @@ Active on [HackenProof](https://hackenproof.com) (`defiaudit`) under responsible
 
 ## Open-source security contributions
 
-Patches to the tooling I use daily — **2 merged · 5 open**:
+Patches to the tools I rely on — **5 merged · 5 open**:
 
 | Repository | Contribution | Status |
 | --- | --- | --- |
 | [crytic/medusa #838](https://github.com/crytic/medusa/pull/838) | Fail-fast fuzz test utils — `require()` on setup failures halts immediately | ✅ Merged |
 | [foundry-rs/foundry #16696](https://github.com/foundry-rs/foundry/pull/16696) | Preserve NatSpec characters inside fenced code blocks | ✅ Merged |
+| [vyncint/termlens #158](https://github.com/vyncint/termlens/pull/158) | Support `no-default-features` builds | ✅ Merged |
+| [oscarbol09/audiobard #23](https://github.com/oscarbol09/audiobard/pull/23) | Fix CRLF paragraph boundary parsing | ✅ Merged |
+| [crytic/echidna #1610](https://github.com/crytic/echidna/pull/1610) | Deterministic boolean corpus coverage counts | ✅ Merged |
 | [crytic/slither #3093](https://github.com/crytic/slither/pull/3093) | New detector: quantum-vulnerable signature schemes (`ecrecover` / `ECDSA.recover`) | In review |
 | [crytic/slither #3094](https://github.com/crytic/slither/pull/3094) | Merge inherited `using-for` directives instead of overwriting them | In review |
 | [crytic/medusa #839](https://github.com/crytic/medusa/pull/839) | On-chain fuzzing (fork mode) documentation guide | In review |
