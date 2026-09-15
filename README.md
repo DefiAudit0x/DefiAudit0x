@@ -8,6 +8,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@DefiAudit0x-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DefiAudit0x)
 [![GitHub Org](https://img.shields.io/badge/Org-DefiAudit_Labs-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DefiAudit-Labs)
 [![Email](https://img.shields.io/badge/Email-defiaudit@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:defiaudit@gmail.com)
+[![Open to Audit Engagements](https://img.shields.io/badge/Open%20to-Audit%20Engagements-2ea043?style=flat-square)](#availability)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DefiAudit0x&style=flat-square&color=blue)
 ![GitHub followers](https://img.shields.io/github/followers/DefiAudit0x?style=flat-square&label=Followers)
@@ -19,6 +20,18 @@
 I research smart-contract vulnerabilities, build reproducible security tests, and help Web3 teams turn findings into practical fixes.
 
 My focus is **Solidity / EVM security, Sui Move security, DeFi and cross-chain attack surfaces, protocol invariants, and secure systems engineering.**
+
+---
+
+## Availability
+
+[![Open for engagements](https://img.shields.io/badge/Status-Open%20for%20Engagements-2ea043?style=for-the-badge)](https://x.com/DeFiAudit)
+
+Currently available for **smart-contract security reviews and audit engagements** — independent or team-based, full-scope or targeted modules.
+
+- **Engagement types:** solo audits, second-pass verification, invariant & fuzzing strategy (Foundry / Echidna / Medusa), secure-upgrade reviews.
+- **Competitive:** audit contests and bug bounties — HackenProof, Code4rena, Sherlock, Cantina, Immunefi.
+- **Response:** usually within 24 hours — X or Telegram are fastest.
 
 ---
 
