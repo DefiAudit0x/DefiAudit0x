@@ -63,7 +63,7 @@ Also an active answerer on foundry-rs/foundry GitHub Q&A discussions.
 | Project | What it demonstrates |
 | --- | --- |
 | [Audit-Reports](https://github.com/DefiAudit0x/Audit-Reports) | Public audit methodology, findings, and sanitized case studies. |
-| [EVM Audit Lab](https://github.com/DefiAudit0x/evm-audit-lab) | Reproducible Solidity vulnerability labs (10 labs, Foundry-tested) with a 3-gate Slither CI. |
+| [EVM Audit Lab](https://github.com/DefiAudit0x/evm-audit-lab) | Reproducible Solidity vulnerability labs (14 labs, Foundry-tested) with a 3-gate Slither CI. |
 | [smart-contract-auditor](https://github.com/DefiAudit0x/smart-contract-auditor) | Multi-pass analysis tool: static pre-scan modules, CVSS 4.0 scoring, Foundry-verified benchmarks, SARIF export. |
 | [DefiAudit Labs organization](https://github.com/DefiAudit-Labs) | The home for DefiAudit research, tools, and reports. |
 
