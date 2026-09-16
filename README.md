@@ -54,7 +54,7 @@ Active on [HackenProof](https://hackenproof.com) (`defiaudit`) under responsible
 
 ## Open-source security contributions
 
-Patches to the tools I rely on — **5 merged · 5 open**:
+Patches to the tools I rely on — **5 merged · 10 in review**:
 
 | Repository | Contribution | Status |
 | --- | --- | --- |
@@ -68,6 +68,13 @@ Patches to the tools I rely on — **5 merged · 5 open**:
 | [crytic/medusa #839](https://github.com/crytic/medusa/pull/839) | On-chain fuzzing (fork mode) documentation guide | In review |
 | [crytic/echidna #1609](https://github.com/crytic/echidna/pull/1609) | Isolate shrinking worker state in the UI | In review |
 | [cross-chain-payments #8](https://github.com/vijaymark/cross-chain-payments/pull/8) | Escrow boundary & fuzz tests for StreamEscrow / MilestoneEscrow | In review |
+| [crytic/medusa #844](https://github.com/crytic/medusa/pull/844) | Decouple `RandomValueGenerator` from the `ValueMutator` interface (part of #809) | In review |
+| [crytic/medusa #845](https://github.com/crytic/medusa/pull/845) | Array structure mutations (swap / insert / delete) in `MutateAbiValue` | In review |
+| [crytic/medusa #846](https://github.com/crytic/medusa/pull/846) | Move ABI argument encoding/decoding helpers to their own file (part of #809) | In review |
+| [crytic/echidna #1631](https://github.com/crytic/echidna/pull/1631) | Cap generated `msg.value` at the sender's balance — fixes zero-balance sender panic (#1556) | In review |
+| [crytic/echidna #1632](https://github.com/crytic/echidna/pull/1632) | Document the JSON output format accurately — schema field-by-field against the code (#1463) | In review |
+
+Claimed upstream issues with root-cause triage: [echidna #1556](https://github.com/crytic/echidna/issues/1556), [echidna #1463](https://github.com/crytic/echidna/issues/1463), [medusa #809](https://github.com/crytic/medusa/issues/809).
 
 Also an active answerer on foundry-rs/foundry GitHub Q&A discussions.
 
