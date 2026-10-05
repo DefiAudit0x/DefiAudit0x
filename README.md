@@ -38,7 +38,7 @@ Building reproducible security tooling, researching smart-contract vulnerabiliti
 
 ## Open-source security contributions
 
-I don't just audit contracts. **I contribute to the tools security researchers use to audit them.**
+I don't just audit contracts. **I contribute to the tools and test infrastructure security researchers use to audit them.**
 
 ### Crytic ecosystem
 
@@ -54,6 +54,8 @@ I don't just audit contracts. **I contribute to the tools security researchers u
 - [Slither #3094](https://github.com/crytic/slither/pull/3094) — correctly merge inherited `using-for` directives.
 - [Slither #3093](https://github.com/crytic/slither/pull/3093) — quantum-vulnerable signature detector.
 - [Foundry #16696](https://github.com/foundry-rs/foundry/pull/16696) — preserve NatSpec characters inside fenced code blocks. **Merged**
+
+- [Cross-chain payments #8](https://github.com/vijaymark/cross-chain-payments/pull/8) — boundary and fuzz tests for `StreamEscrow` and `MilestoneEscrow`, including conservation-of-value and accounting invariants. **Open**
 
 Other merged open-source contributions include [TermLens #158](https://github.com/vyncint/termlens/pull/158) and [AudioBard #23](https://github.com/oscarbol09/audiobard/pull/23).
 
