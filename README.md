@@ -6,7 +6,7 @@
 
 Building reproducible security tooling, researching smart-contract vulnerabilities, and contributing to the open-source infrastructure used by security researchers.
 
-[![X](https://img.shields.io/badge/X-@DeFiAudit-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/DeFiAudit)
+[![X](https://img.shields.io/badge/X-@DefiAudit0x-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/DefiAudit0x)
 [![Telegram](https://img.shields.io/badge/Telegram-@DeFiAudit0x-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/DeFiAudit0x)
 [![GitHub](https://img.shields.io/badge/GitHub-DefiAudit0x-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DefiAudit0x)
 
@@ -57,6 +57,11 @@ I don't just audit contracts. **I contribute to the tools and test infrastructur
 
 - [Cross-chain payments #8](https://github.com/vijaymark/cross-chain-payments/pull/8) — boundary and fuzz tests for `StreamEscrow` and `MilestoneEscrow`, including conservation-of-value and accounting invariants. **Open**
 
+### Other protocol contributions
+
+- [Solmate #439](https://github.com/transmissions11/solmate/pull/439) — fix `DOMAIN_SEPARATOR()` returning a stale cached value via delegatecall: cache the verifying contract and recompute when it changes. **Open**
+- [Chia #21696](https://github.com/Chia-Network/chia-blockchain/pull/21696) — fix `cancel_offers` pagination with asset filtering: pages with no matches stopped pagination, so later matches were never cancelled; +2 regression tests. **Open**
+
 Other merged open-source contributions include [TermLens #158](https://github.com/vyncint/termlens/pull/158) and [AudioBard #23](https://github.com/oscarbol09/audiobard/pull/23).
 
 ---
@@ -99,7 +104,7 @@ I do not publish private client details, credentials, or unauthorized weaponized
 
 ## Contact
 
-- X: [@DeFiAudit](https://x.com/DeFiAudit)
+- X: [@DefiAudit0x](https://x.com/DefiAudit0x)
 - Telegram: [@DeFiAudit0x](https://t.me/DeFiAudit0x)
 - Email: [defiaudit@gmail.com](mailto:defiaudit@gmail.com)
 
